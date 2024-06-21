@@ -9,7 +9,8 @@ This repository contains the backend server implementation for managing form sub
 Make sure that the backend server is running and accessible at http://localhost:3000.
 
 
-Features
+Features:
+
 -Ping Endpoint: /ping - A GET request endpoint that always returns true.
 
 -Submit Endpoint: /submit - A POST request endpoint to save form submissions.
