@@ -35,6 +35,9 @@ function validateSubmission(req: Request, res: Response, next: () => void) {
 
   next();
 }
+app.get("/ping", (req: Request, res: Response) => {
+    res.json(true);
+  });
 
 app.post('/submit', validateSubmission, (req: Request, res: Response) => {
   const { name, email, phone, github_link, stopwatch_time } = req.body;
