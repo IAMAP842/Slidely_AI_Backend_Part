@@ -11,15 +11,20 @@ Make sure that the backend server is running and accessible at http://localhost:
 
 Features
 -Ping Endpoint: /ping - A GET request endpoint that always returns true.
+
 -Submit Endpoint: /submit - A POST request endpoint to save form submissions.
+
 -Read Endpoint: /read - A GET request endpoint with a query parameter to retrieve form submissions by index.
+
 -Delete Endpoint: /delete - A POST request endpoint to delete submitted forms by ID.
+
 -Edit Endpoint: /edit - A POST request endpoint to edit submitted forms by ID.
+
 -Search Endpoint: /search - A GET request endpoint with query parameter to search forms by email ID.
+
 
 Getting Started
 To get a local copy up and running, follow these steps:
 
 Prerequisites
 Node.js and npm installed on your machine.
-
